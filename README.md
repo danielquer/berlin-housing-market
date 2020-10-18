@@ -30,19 +30,6 @@ scope of our exercise, as they biased conclusions on:
 * Positions of the players in the court
 * 2. Some players that the NBA stats service recognized as active (because they had at least one minute played in a game during the season) were not present in the Dataworld dataset. These players were removed when grouping players by position and salary.
 
-
-
-#### Data Structure
-
-
-
-
-
-
-
-
-
-
 #### Project learnings
 ###### Stats API: 
 * session = requests.Session()
