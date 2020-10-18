@@ -2,7 +2,7 @@
 
 ## NBA 1984-2018: How the game changed in 30 years 
 
-Data Thieves Project
+**Data Thieves Project by:
 
 * Victoria Essien
 * Caner Bulut
@@ -26,8 +26,8 @@ Data Thieves Project
 * Data proved to be very clean, but one of the datasets contained a couple of limitations:
 * 1. The Dataworld dataset was incomplete for seasons 1986-87 and 1989-90. We had to remove these seasons from the 
 scope of our exercise, as they biased conclusions on:
-* Salaries
-* Positions of the players in the court
+**Salaries
+**Positions of the players in the court
 * 2. Some players that the NBA stats service recognized as active (because they had at least one minute played in a game during the season) were not present in the Dataworld dataset. These players were removed when grouping players by position and salary.
 
 #### Project learnings
