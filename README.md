@@ -19,7 +19,7 @@ Data Thieves Project
 
 #### We used three different data sources:
 * Stats.nba.com API : we obtained here data for the performance of NBA players from 1984 to 2018. Format: JSON files
-* Data World : (https://data.world/datadavis/nba-salaries) : we obtained here data for the salaries of players from *1984 to 2018. Format: 2 csv files
+* [Data World] (https://data.world/datadavis/nba-salaries) : we obtained here data for the salaries of players from *1984 to 2018. Format: 2 csv files
 * We eventually had to use a [package] provided by a Git user to solve a referential integrity problem. Format: dictionary.
 
 #### Data - sources, problems and limitations
