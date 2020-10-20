@@ -18,9 +18,9 @@ Data Thieves Project by:
 #### Data - sources, problems and limitations
 
 #### We used three different data sources:
-* Stats.nba.com API : we obtained here data for the performance of NBA players from 1984 to 2018. Format: JSON files
-* Data World : (https://data.world/datadavis/nba-salaries) : we obtained here data for the salaries of players from 1984 to 2018. Format: 2 csv files
-* We eventually had to use a [package] provided by a Git user to solve a referential integrity problem. Format: dictionary.
+* Stats.nba.com API: we obtained here data for the performance of NBA players from 1984 to 2018. Format: JSON files
+* [Data World](https://data.world/datadavis/nba-salaries): we obtained here data for the salaries of players from 1984 to 2018. Format: 2 csv files
+* We eventually had to use a [package](https://github.com/swar/nba_api) provided by a Git user to solve a referential integrity problem. Format: dictionary.
 
 #### Data - sources, problems and limitations
 * Data proved to be very clean, but one of the datasets contained a couple of limitations:
@@ -32,6 +32,8 @@ scope of our exercise, as they biased conclusions on:
 
 * 2. Some players that the NBA stats service recognized as active (because they had at least one minute played in a game during the season) were not present in the Dataworld dataset. These players were removed when grouping players by position and salary.
 
+#### Organisation
+[Trello Project](https://trello.com/b/UcY4or2o/list-of-tasks) 
 #### Project learnings
 ###### Stats API: 
 * session = requests.Session()
